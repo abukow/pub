@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: my-app-ing
+  namespace: ns02
   labels:
     environment: production
     name: my-app-ing
