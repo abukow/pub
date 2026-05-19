@@ -7,6 +7,7 @@ metadata:
     environment: production
     name: my-app-ing
 spec:
+  ingressClassName: cilium
   rules:
   - host: my-app.sith.lan
     http:
